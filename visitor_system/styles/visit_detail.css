@@ -1,0 +1,83 @@
+body{
+    font: 0.5rem Microsoft Yahei;
+    padding-top: 0.5rem;
+    background-color: #eee;
+}
+.item {
+    background-color: #FEFFFF;
+    border-top: 1px solid #f4f4f4; 
+}
+.item input {
+    width: 100%;
+    text-indent: .8rem;
+    height: 2rem;
+    font-size: 0.5rem;
+    color: #454447;
+}
+input::-webkit-input-placeholder {
+    color: #ccc;
+}
+input:-ms-input-placeholder {
+    color: #ccc;
+}
+.verify{
+    color: #d29f5b;
+    font-size: 0.5rem;
+    display: flex;
+    position: relative;
+}
+.verify span{
+    position: absolute;
+    right: 4rem;
+    top: .64rem;
+}
+.verify div{
+    width: 3rem;
+    height: 1rem;
+    line-height: 1rem;
+    color: #fff;
+    right: .4rem;
+    text-align: center;
+    top: .5rem;
+    position: absolute;
+    background: #d29f5b;
+    border-radius: .1rem;
+}
+.bottom {
+    /* position: fixed;
+    bottom: 0.35rem;
+    left: 2.5%;
+    height: 1.8rem;
+    text-align: center;
+    letter-spacing: 0.05rem;
+    font: 0.6rem/1.8rem Mircorsoft Yahei;
+    width: 95%;
+    background-color: #333A56;
+    color: #B3B3BC; */
+    font: 0.6rem/1.8rem Mircorsoft Yahei;
+    letter-spacing: 0.05rem;
+    width: 90%;
+    margin: 0 auto;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    text-align: center;
+    color: #fff;
+    background: #d29f5b;
+    border-radius:  0.1rem;
+    margin-top: 1rem;
+}
+.detailBtnBottom{
+    font: 0.6rem/1.8rem Mircorsoft Yahei;
+    letter-spacing: 0.05rem;
+    width: 90%;
+    margin: 0 auto;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 0.1rem; 
+    margin-top: 1rem;
+    padding: 0;
+    margin-top: .4rem;
+    background: #505e61
+}

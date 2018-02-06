@@ -1,0 +1,102 @@
+body {
+    padding-top: 0.35rem;
+    background-color: #eee;
+    color: #333;
+}
+#container {
+    font: 0.5rem Mircorsoft Yahei;
+    color: #353C58;
+}
+#container > div {
+    margin-bottom: 0.35rem;
+    padding: 0.6rem;
+    line-height: 1rem;
+    background-color: #fff;
+}
+div.receiver p:first-child {
+    font-size: 0.6rem;
+}
+div.receiver span:last-child {
+    margin-left: 3rem;
+}
+div.item {
+    display: flex;
+    flex-direction: column;
+}
+div.detail {
+    display: flex;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid #CDCCD1;
+}
+div.detail img {
+    max-height: 2rem;
+    max-width: 2rem;
+    object-fit: fill;
+}
+div.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    line-height: 0.7rem;
+    margin-left: 0.3rem;
+}
+
+div.info span:last-child {
+    float: right;
+}
+div.order-info p{
+    color:#c4c6c8;
+    font-size: .54rem;
+}
+div.order-info i{
+    display: inline-block;
+    width: 4rem;
+}
+
+div.order-info p span{
+    color: #454447;
+}
+div.expense p {
+    padding-top: 0.35rem;
+    float: right;
+}
+div.order-info input {
+    float: right;
+    margin-top: 0.2rem;
+    font-size: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #CDCCD1;
+    background-color: #fff;
+    color: #454447;
+}
+#container .detailBtn{
+    font: 0.6rem/1.8rem Mircorsoft Yahei;
+    letter-spacing: 0.05rem;
+    width: 90%;
+    margin: 0 auto;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    text-align: center;
+    color: #fff;
+    background: #d29f5b;
+    border-radius:  0.1rem; 
+    margin-top: 1rem;
+    padding: 0;
+}
+#container .detailBtnBottom{
+    font: 0.6rem/1.8rem Mircorsoft Yahei;
+    letter-spacing: 0.05rem;
+    width: 90%;
+    margin: 0 auto;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 0.1rem; 
+    margin-top: 1rem;
+    padding: 0;
+    margin-top: .4rem;
+    background: #505e61
+}

@@ -1,0 +1,74 @@
+body{
+    font: 0.5rem Microsoft Yahei;
+    padding-top: 0.5rem;
+    background-color: #eee;
+}
+.item {
+    background-color: #FEFFFF;
+    border-top: 1px solid #f4f4f4; 
+    position: relative;
+}
+.item input {
+    width: 100%;
+    text-indent: .8rem;
+    height: 2rem;
+    font-size: 0.6rem;
+    color: #454447;
+}
+input::-webkit-input-placeholder {
+    color: #ccc;
+}
+input:-ms-input-placeholder {
+    color: #ccc;
+}
+.verify{
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.verify img{
+    position: absolute;
+    top: .9rem;
+    right: .6rem;
+    width: .8rem;
+    height: .8rem;
+}
+.visitHeight img{
+    position: absolute;
+    top: 0rem;
+    right: .4rem;
+    width: 1.4rem;
+    height: 1.24rem;
+}
+.visitHeight{
+    height: 2.4rem;
+    padding: .3rem;
+}
+.visitHeight p{
+    color: #454447;
+    font-size: .6rem;
+    margin-bottom: .24rem;
+}
+.visitHeight > span{
+    color: #c8c7ca;
+    font-size: .52rem;
+}
+.visitHeight p span{
+    color: #d29f5b;
+    margin-left: .24rem;
+}
+.container{
+    margin: 0;
+    padding: 0
+}
+.container .visitHeight:last-child{
+    border-bottom: 1px solid #CDCCD1;
+}
+
+.border-top{
+    border-top: 1px solid #CDCCD1;
+}
+#paginationContainer{
+    text-align: center;
+}
